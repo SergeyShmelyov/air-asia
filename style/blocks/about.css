@@ -1,0 +1,63 @@
+.about{
+    margin-top: 152px;
+    height: 552px;
+    margin-bottom: 53px;
+}
+.about__container {
+    position: relative;
+}
+.about__img{
+    float: left;
+
+}
+.about__content{
+    position: absolute;
+    top: 97px;
+    right: 0;
+    width: 785px;
+    height: 455px;
+    background: url(/img/mountains.png);
+    padding-top: 70px;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-bottom: 66px;
+    border-radius: 5px;
+    
+}
+
+.title{
+	position: relative;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 49px;
+}
+
+.title--dark{
+	color: black;
+}
+
+.about__text{
+    margin-top: 37px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    max-width: 502px;
+}
+.button{
+   
+    width: 168px;
+    height: 55px;
+    padding-top: 18px;
+    background: #F5170E;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 37px;
+}

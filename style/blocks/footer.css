@@ -1,0 +1,88 @@
+.container__content{
+    margin: 0 auto;
+	width: 100%;
+	max-width: 1142px;
+    border-top: 1px solid #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+
+.footer{
+    height: 152px;
+    position: relative;
+}
+
+.logo, .menu, .menu__item, .contacts{
+    display: inline-block;
+    
+    }
+    .logo, .contacts{
+        margin-top: 29px;
+    
+    }
+    .logo{
+        float: left;
+    }
+    .contacts{
+        float: right;
+    }
+    .menu{
+        margin-top: 42px;
+        margin-left: 79px;
+    }
+    .menu__item{
+        margin-right: 54px;
+    }
+    .menu__item :last-child{
+        margin-right: 0;
+    }
+    
+    .contacts__phone{
+       
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 20px;
+    }
+    .contacts__info{
+        float: right;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .contacts__desc{
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 20px;
+        color: #9A9A9A;
+      
+    }
+
+    .social__item{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    .social__item:last-child{
+        margin-right: 0;
+    }
+    .social__link{
+        display: block;
+        text-decoration: none;
+        width: 36px;
+        height: 36px;
+
+    }
+
+    .social__list{
+        position: absolute;
+        top: 35px;
+        right: 265px;
+    }
+
+ 

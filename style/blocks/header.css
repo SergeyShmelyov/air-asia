@@ -1,0 +1,53 @@
+.header{
+    height: 77px;
+    margin-bottom: 130px;
+
+}
+
+.logo, .menu, .menu__item, .contacts{
+    display: inline-block;
+    
+    }
+    .logo, .contacts{
+        margin-top: 29px;
+    
+    }
+    .logo{
+        float: left;
+    }
+    .contacts{
+        float: right;
+    }
+    .menu{
+        margin-top: 42px;
+        margin-left: 79px;
+    }
+    .menu__item{
+        margin-right: 54px;
+    }
+    .menu__item :last-child{
+        margin-right: 0;
+    }
+    
+    .contacts__phone{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 35px;
+       
+    }
+    .contacts__info{
+        float: right;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .menu__link{
+        color: #FFFFFF;
+    }
+    
+    .menu__link:hover{
+        color: #DA0100;
+    }
