@@ -67,7 +67,7 @@ img {
 	max-width: 1142px;
 }
 .wrapper{
-	background: url(/air-asia/img/backgroundone.png);
+	background: url(../../img/backgroundone.png);
 	overflow: hidden;
 	min-height: 100%;
 	
