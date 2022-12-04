@@ -77,7 +77,7 @@ img {
 	position: relative;
 }
 .wrapper__content--main{
-	background: url(./img/background.png) center top no-repeat, url(./img/backgroundtwo.png)center bottom no-repeat;
+	background: url(img/background.png) center top no-repeat, url(img/backgroundtwo.png)center bottom no-repeat;
 	background-repeat: no-repeat;
 }
 
