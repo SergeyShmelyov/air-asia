@@ -1,14 +1,11 @@
 
-.hello__content{
-	margin-bottom: 246px;
+.hello__text--section{
+	width: 511px;
+	height: 197px;
+	margin-bottom: 382px;
 }
 
-.hello__text--section{
-	width: 510px;
-	}
-
 .hello__title{
-	
 	font-style: normal;
 	font-weight: 700;
 	font-size: 72px;
@@ -22,13 +19,15 @@
 	line-height: 20px;
 	margin-bottom: 33px;
 }
-.button--color--white{
+.button--white{
 	background: #F5170E;
-	   color:#FFFFFF;
-	   border: 1px solid #F5170E;}
-   
-   .button--color--white:hover{
-	   background: #FFFFFF;
-	   color:#F5170E;
-	   border: 1px solid #F5170E;
-   }
+	color:#FFFFFF;
+	border: 1px solid #F5170E;
+	   
+}
+  
+.button--white:hover{
+	background: #FFFFFF;
+	color:#F5170E;
+	border: 1px solid #F5170E;
+}

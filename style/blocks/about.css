@@ -3,26 +3,27 @@
     height: 552px;
     margin-bottom: 53px;
 }
+
 .about__container {
     position: relative;
 }
+
 .about__img{
     float: left;
-
 }
+
 .about__content{
     position: absolute;
     top: 97px;
     right: 0;
     width: 785px;
     height: 455px;
-    background: url(../../img/mountains.png);
+    background: url(/img/mountains.png);
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 81px;
     padding-bottom: 66px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .title{
@@ -46,8 +47,8 @@
     line-height: 27px;
     max-width: 502px;
 }
+
 .button{
-   
     width: 168px;
     height: 55px;
     padding-top: 18px;
@@ -62,12 +63,13 @@
     margin-top: 37px;
 }
 
-.button--color--white{
- background: #F5170E;
+.button--white{
+    background: #F5170E;
     color:#FFFFFF;
-    border: 1px solid #F5170E;}
+    border: 1px solid #F5170E;
+}
 
-.button--color--white:hover{
+.button--white:hover{
     background: #FFFFFF;
     color:#F5170E;
     border: 1px solid #F5170E;

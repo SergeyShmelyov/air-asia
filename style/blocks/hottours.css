@@ -9,26 +9,22 @@
     font-size: 36px;
     line-height: 49px;
     margin-bottom: 50px;
-  
 }
 
 .offer--fire{
-position: absolute;
-width: 21px;
-height: 28px;
-margin-left: 285px;
-margin-top: 12px;
-
+    position: absolute;
+    width: 21px;
+    height: 28px;
+    margin-left: 285px;
+    margin-top: 12px;
 }
 
 
 .offers__img{
     background: #001821;
-
 }
 
 .offers__item{
-   
     min-height: 305px;
     display: inline-block;
     border-radius: 0px 0px 5px 5px;
@@ -37,14 +33,15 @@ margin-top: 12px;
     width: 362px;
     overflow: hidden;
 }
+
 .offers__item:last-child{
     margin-right: 0;
 }
 
 .offers__content{
     padding: 33px 16px 26px 22px;
-   
 }
+
 .offers__title{
     font-style: normal;
     font-weight: 700;
@@ -56,36 +53,28 @@ margin-top: 12px;
 
 .offer__feature{
     display: inline-block;
-   
-   
     margin-right: 28px;
-   
-  
-    
 }
+
 .offer__feature:last-child{
     margin-right: 0;
 }
 
 .offers__feature--icon{
     position:absolute;
-   
-
 }
 
 .offers__feature--text{
     position: relative;
-     margin-left: 42px;
+    margin-left: 42px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #666666;
-   
-
 }
+
 .offers__text{
-   
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -112,13 +101,13 @@ margin-top: 12px;
 
 }
 
-.btn--color--white{
+.btn--white{
     background: #FFFFFF;
     color:#F5170E;
     border: 1px solid #F5170E;
 }
 
-.btn--color--white:hover{
+.btn--white:hover{
     background: #F5170E;
     color:#FFFFFF;
     border: 1px solid #F5170E;

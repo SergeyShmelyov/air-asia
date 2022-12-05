@@ -39,7 +39,7 @@
     }
     
     .contacts__phone{
-       
+        
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
@@ -59,10 +59,13 @@
         font-size: 11px;
         line-height: 20px;
         color: #9A9A9A;
-      
+        margin-bottom: 6px;
+        
+        
     }
 
     .social__item{
+
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
@@ -71,6 +74,7 @@
     .social__item:last-child{
         margin-right: 0;
     }
+
     .social__link{
         display: block;
         text-decoration: none;
@@ -80,6 +84,7 @@
     }
 
     .social__list{
+        width: 187px;
         position: absolute;
         top: 35px;
         right: 265px;
