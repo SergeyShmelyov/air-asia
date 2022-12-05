@@ -65,7 +65,8 @@
     }
 
     .social__item{
-
+	width: 36px;
+	height: 36px;
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
@@ -75,13 +76,6 @@
         margin-right: 0;
     }
 
-    .social__link{
-        display: block;
-        text-decoration: none;
-        width: 36px;
-        height: 36px;
-
-    }
 
     .social__list{
         width: 187px;
