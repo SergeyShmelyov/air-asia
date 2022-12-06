@@ -1,12 +1,8 @@
-.container__content{
-    margin: 0 auto;
-	width: 100%;
-	max-width: 1142px;
-    border-top: 1px solid #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.1;
-}
 
+.footer-container__border{
+    border-top: 1px solid #152F3C;
+    
+}
 
 .footer{
     height: 152px;
@@ -63,10 +59,17 @@
         
         
     }
+   
+    .socials{
+        position: absolute;
+        top: 35px;
+        right: 265px;
+    }
+  
 
     .social__item{
-	width: 36px;
-	height: 36px;
+        width: 36px;
+        height: 36px;
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;
@@ -77,11 +80,5 @@
     }
 
 
-    .social__list{
-        width: 187px;
-        position: absolute;
-        top: 35px;
-        right: 265px;
-    }
-
+   
  
