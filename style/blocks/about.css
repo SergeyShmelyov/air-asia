@@ -1,7 +1,7 @@
 .about{
-    margin-top: 152px;
+    margin-top: 146px;
     height: 552px;
-    margin-bottom: 53px;
+    margin-bottom: 56px;
 }
 
 .about__container {
@@ -36,16 +36,17 @@
 
 .title--dark{
 	color: black;
+    margin-bottom: 37px;
 }
 
 .about__text{
-    margin-top: 37px;
     color: black;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     max-width: 502px;
+    margin-bottom: 46px;
 }
 
 .button{
@@ -60,7 +61,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    margin-top: 37px;
+    text-transform: uppercase;
 }
 
 .button--white{

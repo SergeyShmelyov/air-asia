@@ -11,27 +11,37 @@
     margin-bottom: 50px;
 }
 
-.offer--fire{
+.offer--fire::after{
+content: url(../../img/flame.png);
     position: absolute;
-    width: 21px;
-    height: 28px;
-    margin-left: 285px;
-    margin-top: 12px;
+    width: 14px;
+    height: 44px;
+    margin-left: 10px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
 }
 
 
+.offers__list{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
 .offers__img{
     background: #001821;
 }
 
 .offers__item{
     min-height: 305px;
-    display: inline-block;
     border-radius: 0px 0px 5px 5px;
     background: #FFFFFF;
-    margin-right: 23px;
-    width: 362px;
+    width:calc(100%/3 - 19px);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .offers__item:last-child{
@@ -40,6 +50,9 @@
 
 .offers__content{
     padding: 33px 16px 26px 22px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .offers__title{
@@ -48,29 +61,35 @@
     font-size: 24px;
     line-height: 33px;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
+.offers__features{
+    display: flex;
+    
+}
 .offer__feature{
-    display: inline-block;
     margin-right: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__feature--icon{
+    margin-left: 5px;
+    
 }
 
 .offer__feature:last-child{
     margin-right: 0;
 }
 
-.offers__feature--icon{
-    position:absolute;
-}
 
 .offers__feature--text{
-    position: relative;
-    margin-left: 42px;
+    margin-left: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 27px;
     color: #666666;
 }
 
@@ -80,11 +99,12 @@
     font-size: 14px;
     line-height: 21px;
     color: #303030;
-    margin-top: 23px;
+    margin-top: 25px;
     margin-bottom: 24px;
 }
 
 .btn{
+    
     width: 135px;
     height: 55px;
     padding-top: 18px;
@@ -97,7 +117,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-    margin-top: 37px;
+    margin-top: auto;
 
 }
 

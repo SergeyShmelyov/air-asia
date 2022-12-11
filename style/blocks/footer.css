@@ -1,52 +1,62 @@
 
-.footer-container__border{
+.footer--container__border{
     border-top: 1px solid #152F3C;
     
+    
+}
+.footer--container__section{
+    height: 138px;
 }
 
+.footer-container{
+    display: flex;
+    margin-top: auto;
+}
 .footer{
-    height: 152px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align--right{
+    justify-content: flex-end;
+}
 .logo, .menu, .menu__item, .contacts{
     display: inline-block;
+}
+
+.logo{
+    margin-right: 80px;
+    display: block;
+}
+
+ .menu__item{
+    margin-right: 50px;
     
-    }
-    .logo, .contacts{
-        margin-top: 29px;
-    
-    }
-    .logo{
-        float: left;
-    }
-    .contacts{
-        float: right;
-    }
-    .menu{
-        margin-top: 42px;
-        margin-left: 79px;
-    }
-    .menu__item{
-        margin-right: 54px;
-    }
-    .menu__item :last-child{
-        margin-right: 0;
-    }
-    
+}
+
+.menu__item :last-child{
+    margin-right: 0;
+}
     .contacts__phone{
         
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
-        line-height: 20px;
+        line-height: 35px;
     }
     .contacts__info{
         float: right;
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 20px;
+        line-height: 4px;
     }
     .contacts__desc{
         
@@ -61,18 +71,15 @@
     }
    
     .socials{
-        position: absolute;
-        top: 35px;
-        right: 265px;
+      margin-right: 74px;
     }
   
 
     .social__item{
-        width: 36px;
-        height: 36px;
+        
         display: inline-block;
         vertical-align: middle;
-        margin-right: 10px;
+        margin-right: 6px;
     }
 
     .social__item:last-child{
