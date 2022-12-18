@@ -1,15 +1,13 @@
 .page--content{
     padding-top: 98px;
-    padding-bottom: 83px;
+    padding-bottom: 85px;
     background: #ffffff;
     color: #303030;
 }
 
 .paginator--theme--red{
     color: #000000;
-
 }
-
 
 .paginator--theme--red .paginator__item--active .pager__link{
     color: #fff;
@@ -20,10 +18,10 @@
     color: #fff;
     background: #F5170E;
 }
+
 .service{
     display: flex;
     margin-bottom: 48px;
-
 }
 
 .services{
@@ -32,11 +30,12 @@
 
 .service__img{
     width: 45.4%;
-    
 }
+
 .service__content{
     flex: 1;
 }
+
 .service__title{
     padding-top: 11px;
     color: #000000;
@@ -45,6 +44,7 @@
     line-height: 49px;
     margin-bottom: 32px;
 }
+
 .service__desc{
     font-weight: 400;
     font-size: 16px;

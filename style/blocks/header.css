@@ -39,13 +39,17 @@
     font-size: 26px;
     line-height: 35px;   
 }
+
 .contacts__info{
+    position: relative;
     float: right;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 4px;
+    
 }
+
 
 .menu__link{
     font-weight: 400;
@@ -58,4 +62,55 @@
     color: #DA0100;
 }
 
+
+
+.dropdown{
+
+   position: relative; 
    
+
+}
+
+.dropdown:hover .dropdown__menu{
+    top: 15px;
+    left: 30px;
+    opacity: 0.5;
+}
+
+.dropdown__menu{
+    position: absolute;
+    background: #EDEDED;
+    border-radius: 5px;
+    mix-blend-mode: normal;
+    width: 160px;
+    height: 69px;
+    top: 100%;
+    padding: 15px;
+    left: -9999999px;
+    opacity: .1;
+    transition: opacity 0.9s;
+}
+.dropdown__menu::before{
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -15px;
+    position: absolute;
+
+}
+   .dropdown__item{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+   }
+   .dropdown__item--bold{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+   }

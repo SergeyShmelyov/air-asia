@@ -18,8 +18,9 @@ body {
 }
 
 button {
-	border: 0;
+	border: none;
 	cursor: pointer;
+	background: transparent;
 }
 
 * {

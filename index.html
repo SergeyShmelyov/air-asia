@@ -15,20 +15,16 @@
 
 <body>
 
-    <div class="wrapper">
-        <!--вся видимая часть сайта-->
-        <!--БЛОК-->
-
-        <div class="wrapper__content wrapper__content--main">
-            <!--входят все блоки кроме "подвала" (class footer)-->
-            <!--элемент-->
+    <div class="wrapper"><!--вся видимая часть сайта-->
+        <div class="wrapper__content wrapper__content--main"> <!--входят все блоки кроме "подвала" (class footer)-->
+            
             <header class="header">
                 <div class="container header--container">
                     <div class="header__section">
                         <!--верхняя часть сайта с логотипом,меню, контактами и графиком, по другому шапка сайта-->
                         <!--логотип сайта -->
                         <div class="header__col">
-                            <a href="./index.html" class="logo">
+                            <a href="./welcome.html" class="logo">
                                 <img src="./img/logo.png" alt="логотип" class="logo__img">
                             </a>
                             <!--навигация сайта, меню -->
@@ -43,16 +39,26 @@
                                     </li>
 
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Отзывы</a>
+                                        <a href="./reviews.html" class="menu__link">Отзывы</a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                         <!--контакты и график работы-->
                         <div class="header__col header__col--align--right">
+
                             <address class="contacts">
                                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                                <div class="contacts__info">График работы</div>
+                                <div class="dropdown">
+                                    <div class="contacts__info">График работы</div>
+
+                                    <div class="dropdown__menu">
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__item--bold">пн-вс: 09:00 - 20:00</li>
+                                            <li class="dropdown__item">Обед: 14:00-14:30</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </address>
                         </div>
                     </div>
@@ -66,6 +72,7 @@
                     </div>
                 </div>
             </header>
+
             <main class="maincontent"><!--находится основной контент страницы сайта, тэг main-->
                 <!--секция горящие туры-->
                 <section class="offers">
@@ -201,6 +208,7 @@
 
                 </section>
             </main>
+
             <footer class="footer-container ">
                 <div class="container footer--container__border">
                     <div class="footer footer--container__section">
@@ -209,55 +217,55 @@
                             <a href="./index.html" class="logo">
                                 <img src="./img/logo.png" alt="" class="logo__img">
                             </a>
-                        <!--навигация сайта, меню -->
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="./index.html" class="menu__link">Главная</a>
+                            <!--навигация сайта, меню -->
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="./index.html" class="menu__link">Главная</a>
+                                    </li>
+
+                                    <li class="menu__item">
+                                        <a href="./services.html" class="menu__link">Услуги</a>
+                                    </li>
+
+                                    <li class="menu__item">
+                                        <a href="./reviews.html" class="menu__link">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="footer__col footer__col--align--right">
+                            <!--социальные странички-->
+                            <ul class="socials">
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="./img/telegram.png" alt="телеграм">
+                                    </a>
                                 </li>
 
-                                <li class="menu__item">
-                                    <a href="./services.html" class="menu__link">Услуги</a>
+                                <li class="social__item ">
+                                    <a href="#" class="social__link">
+                                        <img src="./img/vk.png" alt="вконтакте">
+                                    </a>
                                 </li>
 
-                                <li class="menu__item">
-                                    <a href="#" class="menu__link">Отзывы</a>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="./img/facebook.png" alt="фейсбук">
+                                    </a>
+                                </li>
+
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <img src="./img/instagram.png" alt="инстаграм">
+                                    </a>
                                 </li>
                             </ul>
-                        </nav>
-                    </div>
-
-                    <div class="footer__col footer__col--align--right">
-                        <!--социальные странички-->
-                        <ul class="socials">
-                            <li class="social__item">
-                                <a href="#">
-                                    <img src="./img/telegram.png" alt="" class="telegram__img">
-                                </a>
-                            </li>
-
-                            <li class="social__item ">
-                                <a href="#">
-                                    <img src="./img/vk.png" alt="" class="vk__img">
-                                </a>
-                            </li>
-
-                            <li class="social__item">
-                                <a href="#">
-                                    <img src="./img/facebook.png" alt="" class="facebook__img">
-                                </a>
-                            </li>
-
-                            <li class="social__item">
-                                <a href="#">
-                                    <img src="./img/instagram.png" alt="" class="instagram__img">
-                                </a>
-                            </li>
-                        </ul>
-                        <!--контакты и график работы-->
+                            <!--контакты и график работы-->
                             <address class="contacts">
-                            <div class="contacts__desc">Бесплатный звонок по всей России</div>
-                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                                <div class="contacts__desc">Бесплатный звонок по всей России</div>
+                                <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
 
                             </address>
                         </div>
@@ -265,8 +273,9 @@
 
                     </div>
                 </div>
-                
+
             </footer>
+
         </div>
     </div>
 
