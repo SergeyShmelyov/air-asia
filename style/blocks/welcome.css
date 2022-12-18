@@ -7,7 +7,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url(./img/welcomebg.png) right 50% bottom 23% no-repeat;
+    background: url(../../img/welcomebg.png) right 50% bottom 23% no-repeat;
 }
 
 .welcome--img{
