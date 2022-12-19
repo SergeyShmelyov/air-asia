@@ -20,7 +20,7 @@
 
 .form__input{   
     flex: 1;
-    border:none;
+    border: 1px solid #FFFF;
     margin-right: 28px;
     border-radius: 4px;
     background: #FFFFFF;
