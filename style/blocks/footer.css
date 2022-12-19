@@ -72,6 +72,7 @@
 
     .social__link{
         opacity: 0.4;
+        transition: all 0.4s ease-in-out;
     }
 
     .social__link:hover{

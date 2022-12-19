@@ -94,6 +94,20 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    transition: all 0.4s ease-in-out;
+}
+
+.buton--white{
+    background: #F5170E;
+    color:#FFFFFF;
+    border: 1px solid #F5170E;
+}
+
+.buton--white:hover{
+    
+    background: #FFFFFF;
+    color:#F5170E;
+    border: 1px solid #F5170E;
 }
 
 .buton--black{

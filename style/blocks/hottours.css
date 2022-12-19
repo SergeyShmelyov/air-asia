@@ -118,6 +118,7 @@ content: url(../../img/flame.png);
     font-size: 14px;
     line-height: 19px;
     margin-top: auto;
+    transition: all 0.4s ease-in-out;
 
 }
 
