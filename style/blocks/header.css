@@ -66,16 +66,16 @@
 
 
 .dropdown{
-
    position: relative; 
    
-
 }
 
 .dropdown:hover .dropdown__menu{
     top: 15px;
     left: 30px;
-    opacity: 0.5;
+    opacity: 0.6;
+    transition: opacity 1s;
+    
 }
 
 .dropdown__menu{
@@ -88,8 +88,8 @@
     top: 100%;
     padding: 15px;
     left: -9999999px;
-    opacity: .1;
-    transition: opacity 0.9s;
+    opacity: 0;
+    transition: opacity 1s;
     
 }
 .dropdown__menu::before{
